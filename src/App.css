@@ -103,6 +103,10 @@ a:hover::after {
 .z-10 {
   z-index: 10;
 }
+.hover_button:hover {
+  background: rgb(255, 255, 255);
+  color: #6601cd !important;
+}
 
 @media (min-width: 1400px) {
   header ul li {
@@ -134,6 +138,7 @@ a:hover::after {
     height: 105vh;
   }
 }
+
 /* ------------------------------------statics------------------------------------------- */
 .bg_statics {
   background: url(./assets/images/png/istsection-bg.png);
@@ -242,6 +247,18 @@ a:hover::after {
   right: 5%;
   z-index: 0;
 }
+.react-3d-carousel .slider-container .slider-content .slider-single.preactive .slider-single-content {
+    opacity: 0.3;
+    transform: translateX(-15% ) scale(0.8) !important;}
+
+
+.react-3d-carousel .slider-container .slider-content .slider-single.proactive .slider-single-content {
+    opacity: 0.3;
+    transform: translateX(15%) scale(0.8) !important;}
+
+
+
+
 
 @media (max-width: 992px) {
   .react-3d-carousel .slider-container .slider-right div {
@@ -252,21 +269,20 @@ a:hover::after {
     transform: translateY(-50%) translateX(-90%) !important ;
     scale: 0.7;
   }
-  
-.trap {
-  position: absolute;
-  bottom: 0%;
-  z-index: 0;
-  width: 100%;
-}
-.rocket {
-  position: absolute;
-  bottom: -5%;
-  right: 0%;
-  z-index: 0;
-}
-}
 
+  .trap {
+    position: absolute;
+    bottom: 0%;
+    z-index: 0;
+    width: 100%;
+  }
+  .rocket {
+    position: absolute;
+    bottom: -5%;
+    right: 0%;
+    z-index: 0;
+  }
+}
 
 /*---------------------------------------- Feedbacks----------------------------------------- */
 .bg_feedback {
@@ -322,12 +338,13 @@ a:hover::after {
   border-width: 2px;
   border-style: solid;
   border-radius: 6px;
-    background-size: 109% 109%;
+  background-size: 109% 109%;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bg_blur:hover .op_70 {
-  opacity: 100;}
+  opacity: 100;
+}
 /* }
 .mt_5{margin-top: -50px;} */
 /* --------------------------------About---------------------------------------------------- */
@@ -460,7 +477,7 @@ div.accordion-body {
 
 /* ----------------backtotop------------------------ */
 .backtotop {
-  background: black;
+  background: rgb(183, 0, 255);
   position: fixed;
   bottom: 2%;
   right: 2%;

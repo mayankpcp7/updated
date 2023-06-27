@@ -119,7 +119,7 @@ return (
                     </a>
                   </li>
                   <button
-                    className="text-white bg_button ff_montserrat fs_sm fw-bold border-0 z-1 bg_tele position-relative transition_300 transform_scale"
+                    className="text-white bg_button hover_button ff_montserrat fs_sm fw-bold border-0 z-1 bg_tele position-relative transition_300 transform_scale"
                     onClick={showNav}
                   >
                     Join Telegram For Free
@@ -128,7 +128,7 @@ return (
               </div>
 
               <div className="d-xl-block d-none">
-                <button className="text-white bg_button ff_montserrat fs_md fw-bold border-0 transform_scale transition_300 mx-2">
+                <button className="text-white bg_button hover_button ff_montserrat fs_md fw-bold border-0  transition_300 mx-2">
                   Join Telegram For Free
                 </button>
               </div>
@@ -151,7 +151,7 @@ return (
               Will you miss this opportunity?
             </p>
             <div className="bg_tele position-relative py-5 mt-3 z-2">
-              <button className="text-white bg_button ff_montserrat fs_md fw-bold border-0 z-1 bg_tele position-relative">
+              <button className="text-white bg_button ff_montserrat transition_300 hover_button fs_md fw-bold border-0 z-1 bg_tele position-relative">
                 Join Telegram For Free
               </button>
               <div className="tele">

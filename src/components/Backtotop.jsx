@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import backtotopimg from "../assets/images/gif/back.gif";
+import backtotopimg from "../assets/images/png/img_338364.png";
 const Backtotop = () => {
   const back = () => {
     document.documentElement.scrollTop = 0;

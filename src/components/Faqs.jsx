@@ -138,7 +138,7 @@ const Faqs = () => {
             </div>
 
             <a
-              className="d-flex align-items-center bg_gradiant radius_78 py-8px px-18px my-3 transform_scale transition_300"
+              className="d-flex align-items-center hover_button bg_gradiant radius_78 py-8px px-18px my-3 transform_scale transition_300"
               href="#"
             >
               <img className="scale_animation" src={telegram} alt="telegram" />

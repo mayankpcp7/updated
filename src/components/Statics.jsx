@@ -10,7 +10,7 @@ const Statics = () => {
         <div className="container pb-lg-5 ">
           <div className="row pt-3 py-lg-5 py-3">
             <div className="col-lg-3 col-md-4 col-sm-6 py-3 py-lg-0">
-              <div className="d-flex flex-column align-items-center justify-content-center border_card card_bg_color p-3 h-100 transform_y_animation">
+              <div className="d-flex flex-column align-items-center justify-content-center border_card card_bg_color p-3 h-100 transition_300">
                 <div>
                   <svg
                     width="70"
@@ -38,7 +38,7 @@ const Statics = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 py-3 py-lg-0 ">
-              <div className="d-flex flex-column align-items-center justify-content-center border_card card_bg_color p-3 h-100 transform_y_n-animation  ">
+              <div className="d-flex flex-column align-items-center justify-content-center border_card card_bg_color p-3 h-100 transform_y_n-animation transition_300 ">
                 <div>
                   <svg
                     width="64"
@@ -77,7 +77,7 @@ const Statics = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 py-3 py-lg-0">
-              <div className="d-flex flex-column align-items-center justify-content-center border_card card_bg_color p-3 h-100 transform_y_animation ">
+              <div className="d-flex flex-column align-items-center justify-content-center border_card card_bg_color p-3 h-100 transform_y_animation transition_300">
                 <div>
                   <svg
                     width="52"
@@ -103,7 +103,7 @@ const Statics = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 py-3 py-lg-0">
-              <div className="d-flex flex-column align-items-center justify-content-center border_card card_bg_color p-3 h-100 transform_y_n-animation">
+              <div className="d-flex flex-column align-items-center justify-content-center border_card card_bg_color p-3 h-100 transform_y_n-animation transition_300">
                 <div>
                   <svg
                     width="71"

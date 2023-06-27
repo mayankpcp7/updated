@@ -8,7 +8,7 @@ const Feedbacks = () => {
         id="Feedbacks"
       >
         <div className="container py-5">
-          <h2 className="ff_mukta text-white fw-bolder fs_xl text-center py-5">
+          <h2 className="ff_mukta text-white fw-bolder fs_xl text-center  pb-5">
             Feedbacks
           </h2>
           <div className="row ">
